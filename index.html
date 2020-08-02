@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+    body {
+  background-color: #e9e9e9;
+}
+body ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  flex-basis: 80%;
+}
+body ul li {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  align-items: center;
+}
+body ul li span {
+  font-family: serif;
+  font-size: 1em;
+  color: #3f3f3f;
+  text-align: center;
+}
+body ul li img {
+  margin: 6px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+    </style>
+</head>
+<body>
+
+<!-- Page Content -->
+<div>
+
+    <header class="masthead text-white text-center backgroundpic pt-5 pb-5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mb-5 mx-auto">
+                    <h1 class="mb-5">Search the books you love!</h1>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-6 mt-3">
+                        <div class="form-row">
+                            <input type="text" id="search">
+<button id="hit">Hit</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Book Grid -->
+    <!-- Book Grid -->
+    <section class="books">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 mx-auto">
+                    <div>
+                        <h1 class="text-primary text-center">Your search result will appear here!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="books">
+        <ul id="runners">
+
+        </div>
+    </section>
+    <!-- /.container -->
+
+</div>
+
+    <script src="main.min.js"></script>
+</body>
+</html>
